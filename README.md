@@ -96,9 +96,56 @@ A cross-cutting audit at the end of a feature, looking at things that can only b
 
 ---
 
+## Project Complexity Skills
+
+This repository includes two AI agent skills for diagnosing and managing project complexity.
+
+### `project-complexity-mapper`
+
+Turns a rough project idea, problem statement, or messy notes into a structured project complexity diagnosis.
+
+It uses the TOE framework:
+
+- Technical complexity
+- Organizational complexity
+- External complexity
+
+Outputs include:
+
+- TOE findings by category
+- Severity based on TOE score + project impact
+- Overall project quadrant
+- Per-hotspot quadrant matrix
+- Mermaid complexity map
+- Management-fit recommendations
+- Human-readable handoff table
+
+Default mode is a fast scan. A complete 47-element TOE assessment is available when requested.
+
+### `project-complexity-action-planner`
+
+Runs after `project-complexity-mapper`.
+
+It consumes the complexity diagnosis and turns it into a practical intervention plan.
+
+Outputs include:
+
+- Intervention backlog
+- Sequencing
+- Suggested owner roles
+- Decision gates
+- Reassessment triggers
+- Risks in the plan
+- Execution handoff
+
+This skill does not redo the TOE diagnosis. It uses the mapper output as input and focuses on turning complexity insight into management action.
+
+---
+
 ## Credits
 
 This workflow was adapted from Mark Pocock's [skills](https://github.com/mattpocock/skills/tree/main).
+Project Management skills use [TOE Framework](https://en.wikipedia.org/wiki/Technology%E2%80%93organization%E2%80%93environment_framework).
 
 ---
 
