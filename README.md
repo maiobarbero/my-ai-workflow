@@ -2,8 +2,8 @@
 
 > How I built a structured AI-assisted development workflow as a Tech Lead, where the real work happens before a single line of code is written.
 
-📖 **Full article:** [maiobarbero.dev/articles/ai-assisted-workflow](https://www.maiobarbero.dev/articles/ai-assisted-workflow/)<br>
-📖 **TOE Framework article:** [https://www.maiobarbero.dev/articles/project-complexity-ai-skills/#the-skills](https://www.maiobarbero.dev/articles/project-complexity-ai-skills/#the-skills)
+📖 **Full article:** [maiobarbero.dev/articles/ai-assisted-workflow](https://www.maiobarbero.dev/articles/ai-assisted-workflow?utm_source=github)<br>
+📖 **TOE Framework article:** [https://www.maiobarbero.dev/articles/project-complexity-ai-skills](https://www.maiobarbero.dev/articles/project-complexity-ai-skills?utm_source=github)
 
 ---
 
