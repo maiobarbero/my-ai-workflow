@@ -145,7 +145,7 @@ This skill does not redo the TOE diagnosis. It uses the mapper output as input a
 ## Credits
 
 This workflow was adapted from Mark Pocock's [skills](https://github.com/mattpocock/skills/tree/main).
-Project Management skills use [TOE Framework](https://en.wikipedia.org/wiki/Technology%E2%80%93organization%E2%80%93environment_framework).
+Project Management skills use TOE Framework from TU Delft
 
 ---
 
